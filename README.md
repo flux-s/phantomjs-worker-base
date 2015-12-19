@@ -1,2 +1,2 @@
 # phantomjs-worker-base
-A docker image containing a very simple REST service for document rendering and conversion using phantomjs
+A base docker image containing node and phantomjs for faster build of phantomjs-worker

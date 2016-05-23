@@ -1,6 +1,9 @@
-FROM node:4.2
+FROM node:6.2
 
 MAINTAINER Alban Mouton <alban.mouton@gmail.com>
+
+RUN apt-get update
+RUN apt-get install -y bzip2 libfreetype6 libfontconfig
 
 WORKDIR /tmp
 
